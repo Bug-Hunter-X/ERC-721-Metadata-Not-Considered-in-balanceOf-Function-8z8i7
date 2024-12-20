@@ -1,0 +1,1 @@
+This bug is related to an ERC-721 token contract where the balanceOf function is implemented without considering the token's metadata. This can lead to an incorrect balance being displayed to the user. The solution involves updating the balanceOf function to include metadata considerations.
